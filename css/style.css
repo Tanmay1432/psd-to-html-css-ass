@@ -1,0 +1,184 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+font-family: 'Lato', sans-serif;
+
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+header{
+	width: 100%;
+	float: left;
+	color: #f6f9f9
+
+}
+
+.logo{
+	padding: 24px 0px;
+    float: left;
+    width: 30%;
+
+}
+
+.logo image{
+
+}
+
+.menu{
+	width: 70%;
+    float: left;
+    text-align: right;
+
+} 
+
+nav ul{
+    list-style: none;
+    margin: 25px 0px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 35px;
+
+}
+nav ul a {
+    color: #15a4fa;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.jpg)no-repeat;
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+.banner-content {
+    padding-top: 210px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-content h2 {
+    font-size: 120px;
+    color: #fff;
+}
+
+.banner-content span {
+    border-bottom: 2px solid #15a4fa;
+    width: 100%;
+    display: block;
+    margin: 10px 0px;
+}
+
+.banner-content p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+
+
+}
+
+.btn {
+    border: 1px solid #15a4fa;
+    padding: 10px 18px;
+    color: #d3bcbc;
+    border-radius: 20px;
+    background-color: #fff;
+    background: transparent;
+}
+.btn:hover{
+	box-shadow: 2px 4px 5px #e0c0ffc4;
+}
+
+.icon {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.fa.fa-chevron-down {
+    color: #fff;
+    font-size: 15px;
+}
+
+.about {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+}
+
+.about .about-content {
+    width: 74%;
+    padding-top: 85px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about .about-content h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #2d3950;
+    letter-spacing: 1.5px;
+}
+
+.about .about-content p {
+    color: #999999;
+    margin-bottom: 100px;
+    line-height: 1.5;
+}
+
+.feature {
+    width: 100%;
+    float: left;
+}
+
+.feature .feature-content {
+    padding-left: 60px;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.feature .feature-content .box {
+    width: 32px;
+    float: left;
+    padding: 0 2.5%;
+    text-align: center;
+}
+
+.feature .feature-content .box .icon ul {
+    list-style: none;
+    margin-bottom: 35px;
+}
+.feature .feature-content .box .icon ul li {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: linear-gradient(80deg, #15a4fa 50%, #15a4fa 50%);
+}
+.feature .feature-content .box .box-content h3 {
+    font-size: 22px;
+    color: #2d3950;
+    margin-bottom: 28px;
+}
+.feature .feature-content .box .box-content p {
+    font-size: 15px;
+    color: #999999;
+    line-height: 1.5;
+    margin-bottom: 64px;
+}
